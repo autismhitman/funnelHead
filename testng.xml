@@ -3,9 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="tests.CreatePlaylist"/>
-      <class name="tests.GetPlaylist"/>
-       <class name="tests.UpdatePlaylist"/>      
+      <class name="tests.CreatePlaylistTest"/>
+      <class name="tests.GetPlaylistTest"/>
+       <class name="tests.UpdatePlaylistTest"/>      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
