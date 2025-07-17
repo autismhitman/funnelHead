@@ -3,7 +3,6 @@ package tests;
 import org.testng.Assert;
 import org.testng.ITestContext;
 import org.testng.annotations.Test;
-
 import apis.PlaylistApi;
 import enums.StatusCode;
 import io.qameta.allure.Description;
@@ -32,7 +31,7 @@ public class GetPlaylistTest {
 		RestUtils.assertStatusCode(response.statusCode(), StatusCode.CODE_200);	
 		 
 		
-	  /*   Response response=	given(SpecBuilder.requestSpecBuilder()) 	
+	  /*   Response response=given(SpecBuilder.requestSpecBuilder()) 	
 		                   .when()
 			                  .get("/playlists/"+playlistId)	
 			               .then().spec(SpecBuilder.responseSpecBuilder()).assertThat().statusCode(200).extract().response();
