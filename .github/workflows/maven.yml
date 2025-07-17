@@ -24,7 +24,7 @@ jobs:
           distribution: temurin
           cache: maven
       - name: Run Maven Tests and Generate Allure Results
-        run: mvn clean test allure:report -Dmaven.test.failure.ignore=true      
+        run: mvn clean test      
       - name: Load test report history
         uses: actions/checkout@v3
         if: always()
