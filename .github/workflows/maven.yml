@@ -7,7 +7,7 @@ name: API test with Maven
     branches:
       - main
   schedule:
-    '-cron': H/3 * * * *
+    - cron: H/3 * * * *
 jobs:
   build:
     runs-on: ubuntu-latest
