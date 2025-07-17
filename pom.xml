@@ -5,8 +5,8 @@
   <version>0.0.1-SNAPSHOT</version>
   
  <properties>
-   <maven.compiler.source>24</maven.compiler.source>
-   <maven.compiler.target>24</maven.compiler.target>
+   <maven.compiler.source>17</maven.compiler.source>
+   <maven.compiler.target>17</maven.compiler.target>
    <aspectj.version>1.9.24</aspectj.version>
   </properties>
   
