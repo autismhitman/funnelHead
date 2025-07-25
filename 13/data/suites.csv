@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jul 25 04:23:21 GMT 2025","Fri Jul 25 04:23:25 GMT 2025","4115","Surefire suite","Surefire test","tests.CreatePlaylistTest","tests.CreatePlaylistTest","createPlaylists","createPlaylists","validates whether the playlist is created when valid data is provided"
+"passed","Fri Jul 25 04:23:21 GMT 2025","Fri Jul 25 04:23:25 GMT 2025","3705","Surefire suite","Surefire test","tests.GetPlaylistTest","tests.GetPlaylistTest","fetchPlaylists","fetchPlaylists","validates whether the playlist is fetched by providing the Id"
+"passed","Fri Jul 25 04:23:21 GMT 2025","Fri Jul 25 04:23:25 GMT 2025","3993","Surefire suite","Surefire test","tests.UpdatePlaylistTest","tests.UpdatePlaylistTest","modifyPlaylists","modifyPlaylists","validates whether the playlist can be modified by providing the Id"
